@@ -1,5 +1,6 @@
-.footer {
-  margin-bottom: 40px;
+.footer__list {
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__container {
@@ -18,20 +19,32 @@
 }
 
 .footer__social {
+  flex-direction: row;
   grid-area: social;
   display: flex;
   gap: 24px;
   justify-self: end;
+  padding-top: 8px;
 }
 
 .footer__contact {
   grid-area: contact;
+  gap: 16px;
+  padding-top: 8px;
 }
 
 .footer__copyright {
   grid-area: copyright;
+  margin: 0;
 }
 
 .footer__developer {
   grid-area: developer;
+  gap: 8px;
+}
+
+.footer__link_contact {
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
