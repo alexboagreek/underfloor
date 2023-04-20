@@ -1,0 +1,64 @@
+.button {
+  border-radius: 24px;
+  padding: 18px 40px;
+  color: #232020;
+  text-transform: uppercase;
+  background-color: #FFC700;
+  cursor: pointer;
+  border: none;
+}
+
+.hero {
+  padding-top: 0;
+}
+
+.hero__container {
+  display: flex;
+  gap: 10px;
+}
+
+.hero__content {
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: self-start;
+  border-radius: 8px;
+}
+
+.hero__title {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 130%;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 32px;
+}
+
+.hero__description {
+  flex-grow: 1;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom:32px;
+}
+
+.hero__slider_wrapper {
+  flex-basis: 50%;
+}
+
+.filling {
+}
+.hero__image {
+}
+.hero__slider_btn {
+}
+.hero__slider_btn_prev {
+}
+.hero_slider_btn_next {
+}
+
+.hero__image {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 12px;
+}
